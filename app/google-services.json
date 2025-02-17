@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "388134452321",
+    "project_id": "med-hub-45247",
+    "storage_bucket": "med-hub-45247.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388134452321:android:2d90b282a75ee933857e20",
+        "android_client_info": {
+          "package_name": "com.example.hackthon1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAsD14BJsap5zwQGSuTmwTNdwGudSypgA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

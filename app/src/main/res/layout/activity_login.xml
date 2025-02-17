@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/log"
+    >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="164dp"
+        android:layout_height="49dp"
+        android:text="MED HUB"
+        android:textColor="#87CEEB"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.111" />
+
+    <TextView
+
+        android:id="@+id/textView3"
+        android:layout_width="210dp"
+        android:layout_height="38dp"
+        android:text="LOGIN DETAILS"
+        android:textColor="#87CEEB"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.194"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.154" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="271dp"
+        android:layout_height="65dp"
+        android:background="@drawable/input_bg"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:ems="10"
+        android:hint="   Username or Email"
+        android:inputType="text"
+        android:paddingStart="40dp"
+        android:textColor="#87CEEB"
+        android:textColorHint="#605A5A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.299" />
+
+    <EditText
+        android:id="@+id/editTextText1"
+        android:layout_width="271dp"
+        android:layout_height="65dp"
+        android:background="@drawable/input_bg"
+        android:drawableStart="@drawable/ic_baseline_security_24"
+        android:ems="10"
+        android:hint="  Password"
+        android:inputType="textPassword"
+        android:paddingStart="40dp"
+        android:textColor="#87CEEB"
+        android:textColorHint="#605A5A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.494" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="340dp"
+        android:layout_height="63dp"
+        android:text="terms and conditions "
+        android:textColorLink="#FFFFFF"
+        android:textSize="16sp"
+        app:checkedState="checked"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText1"
+        app:layout_constraintVertical_bias="0.145" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColorHint="#C41010"
+        android:textColorLink="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox"
+        app:layout_constraintVertical_bias="0.218" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="193dp"
+        android:layout_height="25dp"
+        android:text="New to MED HUB??"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.678"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox"
+        app:layout_constraintVertical_bias="0.6" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
